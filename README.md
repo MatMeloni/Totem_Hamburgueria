@@ -5,11 +5,12 @@ O Totem de Autoatendimento para Hamburgueria é um aplicativo desenvolvido para 
 
 ## Capturas de Tela
 
-Tela Desktop
+**Tela Desktop**
 
 ![image](https://github.com/user-attachments/assets/41db1063-b4d1-408c-bdc2-3cb36f8d6c9e)
 
-Tela Totem
+**Tela Totem**
+
 ![image](https://github.com/user-attachments/assets/1d35970c-547c-460f-bc69-e17f3e3bf4f3)
 
 ## Funcionalidades
@@ -26,7 +27,7 @@ Tela Totem
 - **Firebase**: Solução de backend para autenticação e banco de dados em tempo real.
   - Firestore: Utilizado como banco de dados em tempo real para armazenar e gerenciar pedidos e dados de clientes.
   - Firebase Authentication: Implementado para autenticação de usuários e segurança dos dados.
-- Dart: Linguagem de programação usada em conjunto com Flutter.
+- **Dart**: Linguagem de programação usada em conjunto com Flutter.
 
 ## Contribuições
 Estamos abertos a contribuições! Se você deseja ajudar a melhorar o projeto, siga estas etapas:
@@ -39,7 +40,7 @@ Se você tiver dúvidas, sugestões ou feedback, entre em contato:
 
 Matheus Barbosa Meloni
 Email: matheus.b.meloni@gmail.com
-LinkedIn: [link_para_perfil](https://www.linkedin.com/in/matheus-meloni-bb7b9714b/)
+[link_para_perfil](https://www.linkedin.com/in/matheus-meloni-bb7b9714b/)
 
 
 
