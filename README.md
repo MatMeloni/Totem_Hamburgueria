@@ -13,6 +13,9 @@ O Totem de Autoatendimento para Hamburgueria é um aplicativo desenvolvido para 
 
 ![image](https://github.com/user-attachments/assets/1d35970c-547c-460f-bc69-e17f3e3bf4f3)
 
+**Criação do Firebase**
+![image](https://github.com/user-attachments/assets/9840fcb2-5372-453f-bba1-88fedbe09095)
+
 ## Funcionalidades
 - Navegação interativa pelo cardápio com categorias de produtos.
 - Personalização de pedidos com ingredientes e extras.
@@ -39,8 +42,8 @@ Este projeto está licenciado sob a Licença MIT. Sinta-se à vontade para usar 
 Se você tiver dúvidas, sugestões ou feedback, entre em contato:
 
 Matheus Barbosa Meloni
-Email: matheus.b.meloni@gmail.com
-[link_para_perfil](https://www.linkedin.com/in/matheus-meloni-bb7b9714b/)
+[Email](matheus.b.meloni@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/matheus-meloni-bb7b9714b/)
 
 
 
