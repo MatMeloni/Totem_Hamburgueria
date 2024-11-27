@@ -25,25 +25,68 @@ O Totem de Autoatendimento para Hamburgueria é um aplicativo desenvolvido para 
 - Interface amigável e responsiva para uma experiência de usuário otimizada.
 
 ## Tecnologias Utilizadas
-- **Android Studio**: Ambiente de desenvolvimento integrado (IDE).
-- **Flutter**: Framework para o desenvolvimento de aplicativos multiplataforma.
+
+- **GitHub** : Controle de versão e colaboração.
 - **Firebase**: Solução de backend para autenticação e banco de dados em tempo real.
   - Firestore: Utilizado como banco de dados em tempo real para armazenar e gerenciar pedidos e dados de clientes.
   - Firebase Authentication: Implementado para autenticação de usuários e segurança dos dados.
-- **Dart**: Linguagem de programação usada em conjunto com Flutter.
+- **FlutterFlow**: Criação do design e lógica do front-end.
+- **Figma**: Criação do protótipo inicial
 
+## Como Executar o Projeto
+-Requisitos
+    Flutter SDK: Instalar Flutter
+    Firebase CLI: Configurar Firebase
+    Ngrok (opcional): Exposição local para testes.
+    
+-Passo a Passo
+1- Clone o repositório:
+  git clone https://github.com/MatMeloni/Totem_Hamburgueria.git
+2- Entre no diretório do projeto:
+  cd Totem_Hamburgueria
+3- Instale as dependências:
+  flutter pub get
+4- Configure o Firebase:
+*Conecte o projeto ao Firebase.
+*Configure a autenticação e o Firestore.
+5-Execute o projeto:
+  flutter run
+  
+## Roadmap
+![Status](https://img.shields.io/badge/Status-✅%20Certo-brightgreen)  Sistema de autoatendimento básico.
+![Status](https://img.shields.io/badge/Status-✅%20Certo-brightgreen)  Integração com Firebase para autenticação e banco de dados.
+![Status](https://img.shields.io/badge/Status-✅%20Certo-brightgreen)  Criação de interface interativa no FlutterFlow.
+## Melhorias Futuras
+X - Adicionar suporte a múltiplos idiomas.
+X - Implementar integração com gateways de pagamento externos.
+X - Criar relatórios para gerentes com dados sobre vendas e pedidos.
 ## Contribuições
 Estamos abertos a contribuições! Se você deseja ajudar a melhorar o projeto, siga estas etapas:
 
+
+
+1 - Faça um fork do repositório.
+
+2 - Crie uma nova branch:
+    git checkout -b minha-feature
+    
+3 - Realize suas alterações e faça o commit:
+    git commit -m 'Adiciona nova funcionalidade'
+    
+4 - Envie para o GitHub:
+    git push origin minha-feature
+    
+5 - Abra um Pull Request.
+
 ## Licença
-Este projeto está licenciado sob a Licença MIT. Sinta-se à vontade para usar e modificar conforme necessário.
+![License](https://img.shields.io/github/license/MatMeloni/Totem_Hamburgueria) Este projeto está licenciado sob a Licença MIT. Sinta-se à vontade para usar e modificar conforme necessário.
 
 ## Contato
 Se você tiver dúvidas, sugestões ou feedback, entre em contato:
 
-Matheus Barbosa Meloni
-[Email](matheus.b.meloni@gmail.com)
-[LinkedIn](https://www.linkedin.com/in/matheus-meloni-bb7b9714b/)
+Matheus Meloni [LinkedIn](https://www.linkedin.com/in/matheus-meloni-bb7b9714b/)
+Guilherme Piragibe [LinkedIn](https://www.linkedin.com/in/guilherme-piragibe-ramos-meira-2b278b247/)
+Lior Lerner [LinkedIn](https://www.linkedin.com/in/lior-lerner-762583237/)
 
 
 
