@@ -1,8 +1,3 @@
-
-# Desenvolvimento de um Totem para Hamburgueria
-
-O Totem de Autoatendimento para Hamburgueria é um aplicativo desenvolvido para oferecer uma experiência moderna e eficiente para os clientes realizarem seus pedidos. Com uma interface amigável e responsiva, o aplicativo permite que os usuários naveguem pelo cardápio, personalizem seus pedidos, efetuem pagamentos e acompanhem o status dos pedidos de forma simples e prática.
-
 ## Capturas de Tela
 
 **Tela Desktop**
@@ -88,9 +83,3 @@ Matheus Meloni [LinkedIn](https://www.linkedin.com/in/matheus-meloni-bb7b9714b/)
 Guilherme Piragibe [LinkedIn](https://www.linkedin.com/in/guilherme-piragibe-ramos-meira-2b278b247/)
 Lior Lerner [LinkedIn](https://www.linkedin.com/in/lior-lerner-762583237/)
 
-
-
-
-
-
-   
