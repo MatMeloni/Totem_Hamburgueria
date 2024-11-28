@@ -311,35 +311,56 @@ class _CartWidgetState extends State<CartWidget> {
                     Padding(
                       padding:
                           EdgeInsetsDirectional.fromSTEB(24.0, 4.0, 24.0, 0.0),
-                      child: Row(
-                        mainAxisSize: MainAxisSize.max,
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          Text(
-                            'TOTAL: ',
-                            style: FlutterFlowTheme.of(context)
-                                .titleLarge
-                                .override(
-                                  fontFamily: 'Poppins',
-                                  letterSpacing: 0.0,
+                      child: FutureBuilder<int>(
+                        future: queryCartRecordCount(),
+                        builder: (context, snapshot) {
+                          // Customize what your widget looks like when it's loading.
+                          if (!snapshot.hasData) {
+                            return Center(
+                              child: SizedBox(
+                                width: 50.0,
+                                height: 50.0,
+                                child: CircularProgressIndicator(
+                                  valueColor: AlwaysStoppedAnimation<Color>(
+                                    FlutterFlowTheme.of(context).primary,
+                                  ),
                                 ),
-                          ),
-                          Text(
-                            formatNumber(
-                              FFAppState().soma,
-                              formatType: FormatType.custom,
-                              format: 'R\$',
-                              locale: '',
-                            ),
-                            style: FlutterFlowTheme.of(context)
-                                .labelSmall
-                                .override(
-                                  fontFamily: 'Poppins',
-                                  fontSize: 22.0,
-                                  letterSpacing: 0.0,
+                              ),
+                            );
+                          }
+                          int propertyAddressCount = snapshot.data!;
+
+                          return Row(
+                            mainAxisSize: MainAxisSize.max,
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              Text(
+                                'TOTAL: ',
+                                style: FlutterFlowTheme.of(context)
+                                    .titleLarge
+                                    .override(
+                                      fontFamily: 'Poppins',
+                                      letterSpacing: 0.0,
+                                    ),
+                              ),
+                              Text(
+                                formatNumber(
+                                  FFAppState().soma,
+                                  formatType: FormatType.custom,
+                                  format: 'R\$',
+                                  locale: '',
                                 ),
-                          ),
-                        ],
+                                style: FlutterFlowTheme.of(context)
+                                    .labelSmall
+                                    .override(
+                                      fontFamily: 'Poppins',
+                                      fontSize: 22.0,
+                                      letterSpacing: 0.0,
+                                    ),
+                              ),
+                            ],
+                          );
+                        },
                       ),
                     ),
                   ],

@@ -99,8 +99,8 @@ class _MyAppState extends State<MyApp> {
               ),
             )
           : currentUser!.loggedIn
-              ? EntradaWidget()
-              : ProdutosWidget(),
+              ? ProdutosWidget()
+              : EntradaWidget(),
     );
   }
 }

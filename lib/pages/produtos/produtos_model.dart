@@ -4,6 +4,7 @@ import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import '/pages/bebidas/bebidas_widget.dart';
 import '/pages/burguers/burguers_widget.dart';
+import '/pages/cart/cart_widget.dart';
 import '/pages/entradas/entradas_widget.dart';
 import '/pages/niltinho/niltinho_widget.dart';
 import 'produtos_widget.dart' show ProdutosWidget;

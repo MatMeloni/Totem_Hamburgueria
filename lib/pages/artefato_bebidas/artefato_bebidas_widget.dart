@@ -8,6 +8,7 @@ import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import '/pages/cart/cart_widget.dart';
 import 'dart:math';
+import '/flutter_flow/custom_functions.dart' as functions;
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
@@ -322,6 +323,16 @@ class _ArtefatoBebidasWidgetState extends State<ArtefatoBebidasWidget>
                                                 qtd:
                                                     _model.countControllerValue,
                                               ));
+                                          FFAppState().numitemcart =
+                                              FFAppState().numitemcart + 1.0;
+                                          FFAppState().soma = FFAppState()
+                                                  .soma +
+                                              functions.newCustomFunction(
+                                                  artefatoBebidasBebidasRecord
+                                                      .valor,
+                                                  _model.countControllerValue!
+                                                      .toDouble())!;
+                                          safeSetState(() {});
                                         },
                                         text: 'Adicionar',
                                         options: FFButtonOptions(
